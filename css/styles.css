@@ -1,0 +1,129 @@
+@media (max-widgt: 767px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+body {
+    background-color: #FFF5DF;
+    background-image: url('../imagens/padrao1.png');
+    background-repeat: repeat;
+    background-size: 900px;
+}
+
+@font-face {
+    font-family: 'xilosa';
+    src: url('../fontes/xilosa_.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+h1 {
+    font-family: 'Xilosa', sans-serif;
+    font-size: 86px;
+    text-align: center; /* Centraliza o texto (opcional) */
+}
+
+h2 {
+    font-family: 'Xilosa', sans-serif;
+    font-size: 30px;
+    text-align: right; 
+    margin: 20px;
+}
+
+h3 {
+    color: #FFF5DF;
+    background-color: #1E1E1E;
+    font-size: 60px;
+    font-family: 'xilosa';
+    text-align: center;
+    padding: 10px;
+}
+.textodireita {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    border-color: white;
+    color: antiquewhite;
+}
+
+.header-left{
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-hamburguer {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo do menu que fica escondido */
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #1E1E1E;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Exibe o menu quando a classe 'show' é adicionada */
+.menu.show {
+    display: block;
+}
+
+.centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0%;
+    gap: 50px;
+
+}
+
+.imagem-ajustada {
+    margin-bottom: 40px;
+}
+
+.sombra {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.sombra:hover {
+    transform: scale(1.05); 
+}
