@@ -30,14 +30,14 @@ body {
 
 h1 {
     font-family: 'Xilosa', sans-serif;
-    font-size: 150%;
+    font-size: 300%;
     text-align: center; /* Centraliza o texto (opcional) */
 }
 
 h2 {
     font-family: 'Xilosa', sans-serif;
     font-size: 90%;
-    text-align: right; 
+    text-align: center; 
     margin: 20px;
     width: 40%;
 }
@@ -53,34 +53,18 @@ h3 {
 
 h4 {
     font-family: 'Xilosa', sans-serif;
-    font-size: 105%;
+    font-size: 90%;
     text-align: center; 
+    margin: 20px;
+    width: 40%;
 }
 
-.textodireita {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    text-align: right;
+p {
+    font-family: 'Xilosa', sans-serif;
+    font-size: 100%;
+    text-align: center; 
+    margin: 20px;
 }
-.textodireita > h2 {
-    text-align: left;
-}
-
-.textoesquerda {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    text-align: left;
-}
-
-.textoesquerda > h2 {
-    text-align: right;
-}
-
-
 .app-header {
     display: flex;
     justify-content: space-between; 
@@ -143,18 +127,10 @@ h4 {
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin-top: 32px;
+    margin: 10px; 
+    padding: 10px;
 }
 
-
-.sombra {
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
-}
-
-a:active {
-    transform: scale(1.05); 
-}
 
 .logo-container {
     background-color: #1E1E1E; /* Retângulo preto */
@@ -165,46 +141,17 @@ a:active {
   }
   
   .logo-container img {
-    max-width: 100px; /* Tamanho máximo das logos */
-    margin: 0 30px; /* Espaçamento entre as logos */
+    max-width: 100px; 
+    margin: 0 30px;
   }
 
-  .button-container {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100px; /* Altura total da tela */
-  }
-  
-  /* Estiliza o botão */
-  .instagram-button {
-    text-decoration: none; /* Remove o sublinhado */
-    background-color: #931010; /* Cor do Instagram */
-    color: #fff; /* Cor do texto */
-    padding: 15px 30px; /* Espaçamento interno */
-    border-radius: 25px; /* Bordas arredondadas */
-    font-size: 18px; /* Tamanho do texto */
-    font-family: Arial, sans-serif; /* Fonte simples */
-    font-weight: bold; /* Texto em negrito */
-    transition: background-color 0.3s ease; /* Animação suave */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-  }
-  
-  /* Efeito hover */
-  .instagram-button:hover {
-    background-color: #931010; /* Cor mais escura ao passar o mouse */
-  }
-
-  .scroll-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #AE1B1B; /* Cor de fundo */
-    color: white;  /* Cor do texto */
-    border: none;
-    border-radius: 5px;  /* Bordas arredondadas */
-    cursor: pointer;
-    transition: background-color 0.3s;
+  .centralizado div {
+    text-align: center; 
+    margin: 10px;
 }
+
+.centralizado img {
+    margin-bottom: -25px; 
+}
+
+
