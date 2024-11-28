@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: #FFF5DF;
+    background-color: #FFF5DF rgba[0.5];
     background-image: url('../imagens/padrao1.png');
     background-repeat: repeat;
     width: 100vw;
@@ -63,7 +63,7 @@ p {
     font-family: 'Xilosa', sans-serif;
     font-size: 100%;
     text-align: center; 
-    margin: 20px;
+    margin: 0px 10px;
 }
 .app-header {
     display: flex;
@@ -128,7 +128,7 @@ p {
     align-items: center;
     height: 100%;
     margin: 10px; 
-    padding: 10px;
+    padding: 7px;
 }
 
 
@@ -147,7 +147,7 @@ p {
 
   .centralizado div {
     text-align: center; 
-    margin: 10px;
+    margin: 1px;
 }
 
 .centralizado img {
