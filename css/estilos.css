@@ -37,11 +37,7 @@ h1 {
 h2 {
     font-family: 'Xilosa', sans-serif;
     font-size: 90%;
-<<<<<<< HEAD
     text-align: center; 
-=======
-    text-align: right; 
->>>>>>> c4c3a09ffb1cc6781dec0ed897ec43f523f07d8b
     margin: 20px;
     width: 40%;
 }
@@ -55,7 +51,6 @@ h3 {
     padding: 10px;
 }
 
-<<<<<<< HEAD
 h4 {
     font-family: 'Xilosa', sans-serif;
     font-size: 90%;
@@ -70,9 +65,6 @@ p {
     text-align: center; 
     margin: 20px;
 }
-=======
-
->>>>>>> c4c3a09ffb1cc6781dec0ed897ec43f523f07d8b
 .app-header {
     display: flex;
     justify-content: space-between; 
@@ -135,11 +127,8 @@ p {
     justify-content: center;
     align-items: center;
     height: 100%;
-<<<<<<< HEAD
     margin: 10px; 
     padding: 10px;
-=======
->>>>>>> c4c3a09ffb1cc6781dec0ed897ec43f523f07d8b
 }
 
 
@@ -152,7 +141,6 @@ p {
   }
   
   .logo-container img {
-<<<<<<< HEAD
     max-width: 100px; 
     margin: 0 30px;
   }
@@ -164,19 +152,6 @@ p {
 
 .centralizado img {
     margin-bottom: -25px; 
-=======
-    max-width: 100px; /* Tamanho máximo das logos */
-    margin: 0 30px; /* Espaçamento entre as logos */
-  }
-
-  .centralizado div {
-    text-align: center; /* Centraliza imagem e texto */
-    margin: 10px; /* Ajusta o espaço entre os blocos */
-}
-
-.centralizado img {
-    margin-bottom: -25px; /* Reduz o espaço entre imagem e texto */
->>>>>>> c4c3a09ffb1cc6781dec0ed897ec43f523f07d8b
 }
 
 
