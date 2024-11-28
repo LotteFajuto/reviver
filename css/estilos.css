@@ -15,9 +15,9 @@
 
 body {
     background-color: #FFF5DF;
-    background-image: url('../imagens/padrao1.png');
+    background-image: url('../imagens/fundoclaro.png');
     background-repeat: repeat;
-    width: 100vw;
+    width: 100%;
     background-size: 100vw;
 }
 
